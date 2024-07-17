@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masuk - Sholat Champions</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <picture>
+                <img class="logo" src="image/logo.png" alt="logor">
+            </picture>
+            <h1>LigaSholat</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="program.html">Program</a></li>
+                    <li><a href="donatur.html">Donatur</a></li>
+                    <li><a href="presensi.html">Presensi</a></li>
+                    <li><a href="masuk.html" class="btn btn-light">Masuk</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Masuk</h2>
+                <p>Silakan masuk ke akun Anda.</p>
+            </div>
+        </section>
+        <section class="login-form">
+            <div class="container">
+                <h2>Formulir Masuk</h2>
+                <form action="submit-login.html" method="post">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    
+                    <input type="submit" value="Masuk">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sholat Champions. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
